@@ -1,0 +1,71 @@
+
+# html lang
+language: zh-Hans
+
+# main menu navigation
+menu:
+  home: /
+  archives: /archives
+  tags: /tags
+  search: /search
+  about: /about
+
+# Miscelaneous
+favicon: /source/favicon.png
+
+# 社交链接
+social:
+  GitHub: https://github.com/sweetheartly/
+  知乎: https://www.zhihu.com/people/sweetheartly/activities
+  Weibo: http://weibo.com/Nepal20ly
+  SF: https://segmentfault.com/u/sweetheartly
+
+
+social_icons:
+  enable: true
+  icons_only: false
+  transition: false
+ # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
+  GitHub: github
+  E-Mail: envelope
+  Google: google
+  Twitter: twitter
+  FB Page: facebook
+  VK Group: vk
+  Skype: skype
+  YouTube: youtube
+  Instagram: instagram
+  StackOverflow: stack-overflow
+  Weibo: weibo
+  SF: meh-o
+  知乎: twitter
+  heartbeat: heartbeat
+# Blog rolls
+links_title: Links
+# links_layout: block
+links_layout: inline
+links:
+  Mine GitHub: https://github.com/sweetheartly/
+  Mr.zhou Blog: http://mrzhouxiaofei.com/
+  Mr.lhy Blog: http://zgqnlhy.top/
+  Mr.LuKing Blog: http://www.cnblogs.com/loveluking/
+  Mr.Wang Blog: http://blog.csdn.net/mrwangweijin
+
+# stylesheets loaded in the <head>
+stylesheets:
+# - /css/normalize.css
+- //cdn.bootcss.com/pure/1.0.0/pure-min.css
+- /css/microb.css
+
+# scripts loaded in the end of the body
+scripts:
+#- //cdn.bootcss.com/zepto/1.2.0/zepto.min.js
+#- /js/microb.js
+
+# switch
+show_excerpt: true
+show_date: true
+
+search:
+  path: search.xml
+  field: post 
